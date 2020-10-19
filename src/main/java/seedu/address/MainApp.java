@@ -48,6 +48,7 @@ public class MainApp extends Application {
 
     @Override
     public void init() throws Exception {
+        assert false : "This line causes an assertion failure";
         logger.info("=============================[ Initializing AddressBook ]===========================");
         super.init();
 
